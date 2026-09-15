@@ -1,0 +1,15 @@
+# Never commit credentials. Account logins live in the browser vault only.
+*.local.json
+*.local.js
+.env
+.env.*
+secrets/
+vault-export*.json
+belive-autopost-backup*.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
